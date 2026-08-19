@@ -30,6 +30,8 @@ if __name__ == "__main__":
     
 '''
 
+'''
+
 # function gets the age independently
 def ticketSellAge(age):
     if age>=18:
@@ -67,4 +69,21 @@ def main():
         
 if __name__ == "__main__":
     main()
+'''
+
+def gradeCalculator(grade):
+    if grade < 0 or grade>100 :
+        print("input valid number")
+    elif grade<100 and grade>90:
+        print("A")
+    elif grade<89 and grade>80:
+        print("B")
+    elif grade<79 and grade>70:
+        print("C")
+    elif grade<100 and grade>90:
+        print("D")
+    else :
+        print("fail")
+        
+    
     
