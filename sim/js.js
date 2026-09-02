@@ -1,3 +1,4 @@
+/*
 import promptSync from 'prompt-sync';
 
 const input = promptSync();
@@ -22,7 +23,7 @@ function ageFinder(age){
 };
 
 */
-
+/*
 // Age finding logic as well as getting age from the user also added inside the function!!
 const number_userAge = input("what is your age please?\n");
 
@@ -58,3 +59,48 @@ const number_main = () => {
 }
 
 number_main();
+*/
+
+/*
+const n = 3
+
+for(let i = 1 ; i < 11 ; i++){
+  if(i==5){
+    continue;
+  }else{
+    let result = n * i ;
+    console.log(`3*${i}=${result}`);
+  }
+}
+
+*/
+/*
+let name = "hassan";
+let reverseName = "" ;
+
+for(let i=0 ; i<name.length ; i++){
+   reverseName = name[i] + reverseName;
+}
+
+console.log(reverseName);
+
+
+let n = 5 ;
+let x = 1;
+
+for(let i = n ; i > 0 ; i--){
+  x = x*i ;
+}
+
+console.log(x);
+*/
+
+class Student{
+  constructor(name, age, grade){
+    this.name = name ;
+    this.age =  age ;
+    this.grade = grade ;
+  }
+
+  
+}

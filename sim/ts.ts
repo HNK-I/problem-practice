@@ -38,10 +38,42 @@ for(const car of cars){
 */
 
 
+/*
 
-
-function ageFinder(age : number) : number{
+function ageFinder(age : number){
     if(age<0){
         console.log
     }
 }
+
+const n : number = 3;
+
+for(let)
+*/
+/*
+let name : string = "hassan";
+
+
+
+let reverseName : string = "";
+
+for(let i : number = 0 ; i<name.length ; i++){
+    reverseName = name[i] + reverseName ; 
+
+}
+console.log(reverseName);
+
+let n : number = 5 ;
+let x : number= 1;
+
+for(let i : number = n ; i > 0 ; i--){
+    x = x*i ;
+}
+
+console.log(x);
+*/
+
+class student{
+    let name ;
+    
+};

@@ -70,7 +70,7 @@ def main():
 if __name__ == "__main__":
     main()
 '''
-
+'''
 def gradeCalculator(grade):
     if grade < 0 or grade>100 :
         print("input valid number")
@@ -85,5 +85,43 @@ def gradeCalculator(grade):
     else :
         print("fail")
         
-    
-    
+gradeCalculator(52)
+        
+'''
+
+# loops problems
+
+'''
+# Given a list of numbers, count how many of them are positive 
+numbers = [12, -7, 4, -15, 0, 9, -3, 21, -10, 6]
+
+for i in numbers:
+    if i>0:
+        print(i)
+        
+'''
+'''
+n = 10
+sum = 0
+
+for i in range(1,n+1):
+    if i%2 == 0:
+        sum = sum+1
+        
+print(sum)
+
+'''
+
+'''
+n = 10
+number = 5
+
+for i in range(1,n+1):
+    if i==5:
+        continue
+    result = i*5
+    print(f"1*{i}={result}")
+'''
+
+n = 5
+
